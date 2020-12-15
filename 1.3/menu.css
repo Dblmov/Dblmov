@@ -17,12 +17,14 @@ background-color:#FFFFFF;
 letter-spacing: -0.2px;
 box-sizing: border-box;
 
+
 }
 
 .header__menu {
     display:flex;
     align-items:center;
     margin-bottom:46px;
+    box-sizing: border-box;
     
 }
 .button {
@@ -44,20 +46,19 @@ box-sizing: border-box;
 }
 
 .logo {
-    background-image: url("img/logo.svg");
     width:97px;
     height:51px;
     background-repeat: no-repeat;
     margin-left: 17px;
 }
-.nav {
+.navigation {
     flex-grow: 1;
 }
-.nav__item a{
+.navigation__item a{
     text-decoration: none;
     color:#1B1C21;
 }
-.nav__item {
+.navigation__item {
 margin-bottom:32px;
 font-size:16px;
 line-height: 24px;
@@ -66,15 +67,15 @@ letter-spacing: -0.2px;
 font-style: normal;
 font-weight: 500;
 }
-.nav__item--active a{
+.navigation__item--active a{
     color:#7E7E82;
 }
 
-.nav__item--active {
+.navigation__item--active {
     position:relative;
 }
 
-.nav__item--active:before{
+.navigation__item--active:before{
     content:" ";
     position:absolute;
     width:4px;
@@ -123,7 +124,7 @@ font-weight: 700;
 margin-bottom:40px;
 }
 
-.lang__button {
+.language__button {
     border:none;
     color:#1B1C21;
     font-size:16px;
@@ -131,6 +132,6 @@ margin-bottom:40px;
     background:none;
 }
 
-.lang__button_active {
+.language__button_active {
     color:#7E7E82;
 }
