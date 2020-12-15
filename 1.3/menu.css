@@ -72,10 +72,6 @@ letter-spacing: -0.2px;
 font-style: normal;
 font-weight: 500;
 }
-.navigation__item a:hover{
-    color: #7E7E82;
-    transition: 0.5s;
-}
 
 
 .navigation__item--active a{
@@ -97,6 +93,12 @@ font-weight: 500;
     border-top-right-radius:5px;
     border-bottom-right-radius:5px;
 }
+
+.navigation__item a:hover {
+    color: #7E7E82;
+    transition: 0.5s;
+}
+
 .interaction__button_call {
     background-image: url("img/icon_call.svg");
     
