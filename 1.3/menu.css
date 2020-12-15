@@ -73,7 +73,7 @@ font-style: normal;
 font-weight: 500;
 }
 .navigation__item a:hover{
-    color:#7E7E82;
+    color: #7E7E82;
     transition: 0.5s;
 }
 
