@@ -35,10 +35,11 @@ box-sizing: border-box;
     background-repeat: no-repeat;
     background-position: center;
 }
-.button:hover {
-    opacity:0.7;
-}
 
+.button:hover {
+opacity:0.7;
+
+}
 .button-close {
     background-image: url("img/icon_close.svg");
     background-repeat: no-repeat;
@@ -71,6 +72,12 @@ letter-spacing: -0.2px;
 font-style: normal;
 font-weight: 500;
 }
+.navigation__item a:hover{
+    color:#7E7E82;
+    transition: 0.5s;
+}
+
+
 .navigation__item--active a{
     color:#7E7E82;
 }
@@ -134,10 +141,6 @@ margin-bottom:40px;
     font-size:16px;
     Font-style: Medium;
     background:none;
-}
-
-.language__button_active {
-    color:#7E7E82;
 }
 
 .language__button_active {
