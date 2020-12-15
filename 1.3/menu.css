@@ -37,7 +37,8 @@ box-sizing: border-box;
 }
 
 .button:hover {
-opacity:0.7;
+color:#7E7E82;
+opacity: 0.7;
 
 }
 .button-close {
@@ -72,6 +73,10 @@ letter-spacing: -0.2px;
 font-style: normal;
 font-weight: 500;
 }
+.navigation__item a:hover{
+    color:#7E7E82;
+    transition: 0.5s;
+}
 
 
 .navigation__item--active a{
@@ -93,12 +98,6 @@ font-weight: 500;
     border-top-right-radius:5px;
     border-bottom-right-radius:5px;
 }
-
-.navigation__item a:hover {
-    color: #7E7E82;
-    transition: 0.5s;
-}
-
 .interaction__button_call {
     background-image: url("img/icon_call.svg");
     
@@ -126,6 +125,11 @@ background-image: url("img/icon_chat.svg");
     text-decoration: none;
 }
 
+.contact__mail:hover {
+    transition:0.5;
+    color:#7E7E82;
+}
+
 .contact__number {
 color:#1B1C21;
 font-style: bold;
@@ -135,6 +139,11 @@ font-size: 24px;
 line-height: 32px;
 font-weight: 700;
 margin-bottom:40px;
+}
+
+.contact__number:hover {
+    transition: 0.5;
+    color:#7E7E82;
 }
 
 .language__button {
@@ -153,3 +162,5 @@ margin-bottom:40px;
     color:#7E7E82;
     transition:0.5;
 }
+
+
