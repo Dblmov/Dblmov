@@ -1,4 +1,4 @@
-if (window.innerWidth <= 320) {
+if (window.innerWidth <= 768) {
     var swiper = new Swiper('.swiper-container', {
         slidesPerView: 'auto',
         slidesPerColumn: 1,
@@ -13,9 +13,9 @@ if (window.innerWidth <= 320) {
 };
 
 
-document.querySelector('.brand__show--all').addEventListener('click', function () {
+document.querySelector('.brand__show-all').addEventListener('click', function () {
     var wrapper = document.querySelector('.swiper-wrapper');
-    var btn = document.querySelector('.brand__show--all');
+    var btn = document.querySelector('.brand__show-all');
 
     if (wrapper.classList.contains('show')) {
         btn.textContent = 'Показать всё';
