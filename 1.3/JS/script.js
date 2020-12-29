@@ -1,8 +1,8 @@
 if (window.innerWidth <= 320) {
     var swiper = new Swiper('.swiper-container', {
         slidesPerView: 'auto',
-        // slidesPerColumn: 1,
-        // slidesPerColumnFill:"row",
+        slidesPerColumn: 1,
+        slidesPerColumnFill:"row",
         spaceBetween: 16,
         loop: true,
         pagination: {
