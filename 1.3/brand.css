@@ -199,7 +199,7 @@ body {
 
     .swiper-slide {
         width: 240px;
-        margin-right:16px;
+        margin-right:0px;
     }
 
     .swiper-pagination-bullets {
