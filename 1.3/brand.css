@@ -127,7 +127,8 @@ body {
 }
 
 
-@media (max-width: 768px) {
+
+@media (max-width: 1000px) {
     .swiper-wrapper {
         display: grid;
         padding-top: 24px;
@@ -141,6 +142,37 @@ body {
         padding: 0 24px;
     }
 }
+
+@media (max-width: 750px) {
+    .swiper-wrapper {
+        display: grid;
+        padding-top: 24px;
+        grid-template-columns: 0.50fr 0.50fr;
+        column-gap: 24px;
+        row-gap: 16px;
+        overflow: hidden;
+        height: 160px;
+    }
+    .swiper-container {
+        padding: 0 24px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .swiper-wrapper {
+        display: grid;
+        padding-top: 24px;
+        grid-template-columns: 100fr;
+        overflow: hidden;
+        height: 160px;
+    }
+    .swiper-container {
+        padding: 0 24px;
+    }
+}
+
+
 
 @media (max-width: 320px) {
     .brand__title {
