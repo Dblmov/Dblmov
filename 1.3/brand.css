@@ -217,6 +217,18 @@ body {
         background: #B5B6BC;
     }
 
+    .swiper-container::after {
+        content: '';
+        display: block;
+        background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+        width: 16px;
+        height: 81px;
+        position: absolute;
+        z-index: 20;
+        top: 11px;
+        right: 0;
+    }
+
 }
 
 
