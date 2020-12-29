@@ -52,7 +52,7 @@ body {
 
 
 .brand__link {
-    background: url("img.brand/dropdown.svg") no-repeat;
+    background: url("img/dropdown.svg") no-repeat;
     background-position: right 50%;
     width: 100%;
     height: 72px;
@@ -108,7 +108,7 @@ body {
     content: "";
     width: 8px;
     height: 10px;
-    background: url("img.brand/icon_down.svg") no-repeat;
+    background: url("img/icon_down.svg") no-repeat;
     margin-right: 17px;
     display: inline-block;
 }
